@@ -1,5 +1,6 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import MainLayout from "../layouts/MainLayout.tsx";
+import Billiards from "../../pages/Billiards/ui/Billiards.tsx";
 
 const router = createBrowserRouter([
     {
@@ -9,7 +10,7 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 index: true,
-                element: <div>Hello world!</div>
+                element: <Billiards />
             },
             {
                 path: "/new",
